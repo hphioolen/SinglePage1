@@ -35,6 +35,7 @@ function setup() {
   // http://codex.wordpress.org/Function_Reference/set_post_thumbnail_size
   // http://codex.wordpress.org/Function_Reference/add_image_size
   add_theme_support('post-thumbnails');
+  add_image_size( 'partner-size', 400, 300, true );
 
   // Enable post formats
   // http://codex.wordpress.org/Post_Formats
@@ -63,14 +64,33 @@ function widgets_init() {
     'after_title'   => '</h3>'
   ]);
 
-  register_sidebar([
-    'name'          => __('Footer', 'sage'),
-    'id'            => 'sidebar-footer',
+register_sidebar(array(
+    'name'          => __('Footer Links', 'sage'),
+    'id'            => 'sidebar-footer-1',
     'before_widget' => '<section class="widget %1$s %2$s">',
     'after_widget'  => '</section>',
     'before_title'  => '<h3>',
-    'after_title'   => '</h3>'
-  ]);
+    'after_title'   => '</h3>',
+  ));
+  
+   register_sidebar(array(
+    'name'          => __('Footer Midden', 'sage'),
+    'id'            => 'sidebar-footer-2',
+    'before_widget' => '<section class="widget %1$s %2$s">',
+    'after_widget'  => '</section>',
+    'before_title'  => '<h3>',
+    'after_title'   => '</h3>',
+  ));
+  
+   register_sidebar(array(
+    'name'          => __('Footer Rechts', 'sage'),
+    'id'            => 'sidebar-footer-3',
+    'before_widget' => '<section class="widget %1$s %2$s">',
+    'after_widget'  => '</section>',
+    'before_title'  => '<h3>',
+    'after_title'   => '</h3>',
+  ));
+
 }
 add_action('widgets_init', __NAMESPACE__ . '\\widgets_init');
 
