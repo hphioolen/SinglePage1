@@ -1,6 +1,9 @@
 <?php if (is_home() || is_front_page()): ?>
     
+    		<?php get_template_part('templates/includes/portfolio-categorie'); ?>
     		<?php get_template_part('templates/includes/partner-flexslider'); ?>
+    		
+    		
 	
 	<?php endif; ?> 
 	<div class="top">

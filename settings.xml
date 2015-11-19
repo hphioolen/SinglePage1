@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<types>
+    <settings>
+        <add_resized_images_to_library>0</add_resized_images_to_library>
+        <register_translations_on_import>1</register_translations_on_import>
+        <images_remote>0</images_remote>
+        <images_remote_cache_time>36</images_remote_cache_time>
+        <help_box>by_types</help_box>
+    </settings>
+    <groups>
+        <group>
+            <ID>15</ID>
+            <post_content>Voeg hier de speciale portfolio beschrijvingen toe.</post_content>
+            <post_title>Portfolio velden</post_title>
+            <post_excerpt></post_excerpt>
+            <post_type>wp-types-group</post_type>
+            <post_status>publish</post_status>
+            <meta>
+                <_wp_types_group_filters_association>any</_wp_types_group_filters_association>
+                <_wp_types_group_fields>,bedrijf-of-project,url-project,datum-project,afbeeldingen,featured,</_wp_types_group_fields>
+                <_wp_types_group_post_types>,portfolio,</_wp_types_group_post_types>
+                <_wp_types_group_terms>all</_wp_types_group_terms>
+                <_wp_types_group_admin_styles></_wp_types_group_admin_styles>
+                <_wp_types_group_templates>all</_wp_types_group_templates>
+                <_wpcf_conditional_display>
+                    <custom_use>0</custom_use>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </_wpcf_conditional_display>
+            </meta>
+            <hash>a82b1ebaa46690929e6113ecdb6d2e87</hash>
+            <checksum>a82b1ebaa46690929e6113ecdb6d2e87</checksum>
+            <__types_id>portfolio-velden</__types_id>
+            <__types_title>Portfolio velden</__types_title>
+        </group>
+        <group>
+            <ID>4</ID>
+            <post_content>Vul hier de speciale velden in</post_content>
+            <post_title>Speciale velden</post_title>
+            <post_excerpt></post_excerpt>
+            <post_type>wp-types-group</post_type>
+            <post_status>publish</post_status>
+            <meta>
+                <_wp_types_group_filters_association>any</_wp_types_group_filters_association>
+                <_wp_types_group_fields>,url,</_wp_types_group_fields>
+                <_wp_types_group_post_types>,partner,</_wp_types_group_post_types>
+                <_wp_types_group_terms>all</_wp_types_group_terms>
+                <_wp_types_group_admin_styles></_wp_types_group_admin_styles>
+                <_wp_types_group_templates>all</_wp_types_group_templates>
+                <_wpcf_conditional_display>
+                    <custom_use>0</custom_use>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </_wpcf_conditional_display>
+            </meta>
+            <hash>dbf406c1f78951328fb3eef32fb66091</hash>
+            <checksum>dbf406c1f78951328fb3eef32fb66091</checksum>
+            <__types_id>speciale-velden</__types_id>
+            <__types_title>Speciale velden</__types_title>
+        </group>
+    </groups>
+    <fields>
+        <field>
+            <description>Vul de Url van de pagina in</description>
+            <data>
+                <conditional_display>
+                    <custom_use>0</custom_use>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <id>url</id>
+            <name>url</name>
+            <type>url</type>
+            <slug>url</slug>
+            <meta_key>wpcf-url</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>url</__types_id>
+            <__types_title>url</__types_title>
+            <hash>2998836ff3a64f31a4b519ba2f9724f7</hash>
+            <checksum>2998836ff3a64f31a4b519ba2f9724f7</checksum>
+        </field>
+        <field>
+            <description>Commissie URL</description>
+            <data>
+                <repetitive>0</repetitive>
+                <is_new>1</is_new>
+                <conditional_display>
+                    <custom_use>0</custom_use>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <id>commissie</id>
+            <name>Commissie</name>
+            <type>url</type>
+            <slug>commissie</slug>
+            <meta_key>wpcf-commissie</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>commissie</__types_id>
+            <__types_title>Commissie</__types_title>
+            <hash>a4a0893d4678d0fedd532ac925c909cb</hash>
+            <checksum>a4a0893d4678d0fedd532ac925c909cb</checksum>
+        </field>
+        <field>
+            <description></description>
+            <data>
+                <repetitive>0</repetitive>
+                <conditional_display>
+                    <custom_use>0</custom_use>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <id>functie</id>
+            <name>Functie:</name>
+            <type>textfield</type>
+            <slug>functie</slug>
+            <meta_key>wpcf-functie</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>functie</__types_id>
+            <__types_title>Functie:</__types_title>
+            <hash>f4115eb4005c2691bc8db011d759a3e2</hash>
+            <checksum>f4115eb4005c2691bc8db011d759a3e2</checksum>
+        </field>
+        <field>
+            <id>bedrijf-project</id>
+            <slug>bedrijf-project</slug>
+            <type>textfield</type>
+            <name>Bedrijf / Project</name>
+            <description></description>
+            <data>
+                <repetitive>0</repetitive>
+                <is_new>1</is_new>
+                <disabled_by_type>0</disabled_by_type>
+                <removed_from_history>1</removed_from_history>
+            </data>
+            <meta_key>wpcf-bedrijf-project</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>bedrijf-project</__types_id>
+            <__types_title>Bedrijf / Project</__types_title>
+            <hash>2f7c6c31f6aa1fba3e0454808e400e48</hash>
+            <checksum>2f7c6c31f6aa1fba3e0454808e400e48</checksum>
+        </field>
+        <field>
+            <id>bedrijf-of-project</id>
+            <slug>bedrijf-of-project</slug>
+            <type>textfield</type>
+            <name>Bedrijf of Project</name>
+            <description></description>
+            <data>
+                <repetitive>0</repetitive>
+                <conditional_display>
+                    <custom_use>0</custom_use>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-bedrijf-of-project</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>bedrijf-of-project</__types_id>
+            <__types_title>Bedrijf of Project</__types_title>
+            <hash>07f3dbf9c8f37afec797be43ce164532</hash>
+            <checksum>07f3dbf9c8f37afec797be43ce164532</checksum>
+        </field>
+        <field>
+            <id>url-project</id>
+            <slug>url-project</slug>
+            <type>url</type>
+            <name>URL Project</name>
+            <description></description>
+            <data>
+                <repetitive>0</repetitive>
+                <conditional_display>
+                    <custom_use>0</custom_use>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-url-project</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>url-project</__types_id>
+            <__types_title>URL Project</__types_title>
+            <hash>05243545d1d149ca31d05c4e98d552cd</hash>
+            <checksum>05243545d1d149ca31d05c4e98d552cd</checksum>
+        </field>
+        <field>
+            <id>datum-project</id>
+            <slug>datum-project</slug>
+            <type>date</type>
+            <name>Datum</name>
+            <description></description>
+            <data>
+                <date_and_time>date</date_and_time>
+                <repetitive>0</repetitive>
+                <conditional_display>
+                    <custom_use>0</custom_use>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-datum-project</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>datum-project</__types_id>
+            <__types_title>Datum</__types_title>
+            <hash>c09d42a881640572c51155f80d483760</hash>
+            <checksum>c09d42a881640572c51155f80d483760</checksum>
+        </field>
+        <field>
+            <id>afbeeldingen</id>
+            <slug>afbeeldingen</slug>
+            <type>image</type>
+            <name>Afbeeldingen</name>
+            <description>Voeg afbeeldingen die getoond moeten worden op de pagina hier toe. Gebruik het thumbnail veld voor de vertoning op overzichten.</description>
+            <data>
+                <repetitive>1</repetitive>
+                <conditional_display>
+                    <custom_use>0</custom_use>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-afbeeldingen</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>afbeeldingen</__types_id>
+            <__types_title>Afbeeldingen</__types_title>
+            <hash>57679fd5d4a5fa553436654f4a64d0de</hash>
+            <checksum>57679fd5d4a5fa553436654f4a64d0de</checksum>
+        </field>
+        <field>
+            <id>toon-op-de-voorpagina</id>
+            <slug>toon-op-de-voorpagina</slug>
+            <type>select</type>
+            <name>Toon op de voorpagina</name>
+            <description>Door sit aan te vinken, wordt dit item op de voorpagina getoond. LET OP! Dat kan maar voor één (1) item per categorie!</description>
+            <data>
+                <options>
+                    <wpcf-fields-select-option-ce95d1491bb97df804d497d4e8f253c0-1>
+                        <title>vvoorpagina</title>
+                        <value>yes</value>
+                    </wpcf-fields-select-option-ce95d1491bb97df804d497d4e8f253c0-1>
+                </options>
+                <is_new>1</is_new>
+                <conditional_display>
+                    <custom_use>0</custom_use>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-toon-op-de-voorpagina</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>toon-op-de-voorpagina</__types_id>
+            <__types_title>Toon op de voorpagina</__types_title>
+            <hash>bef048978a43c366a9e1488e2665823f</hash>
+            <checksum>bef048978a43c366a9e1488e2665823f</checksum>
+        </field>
+        <field>
+            <id>featured</id>
+            <slug>featured</slug>
+            <type>checkbox</type>
+            <name>featured</name>
+            <description>Door sit aan te vinken, wordt dit item op de voorpagina getoond. LET OP! Dat kan maar voor één (1) item per categorie!</description>
+            <data>
+                <set_value>yes</set_value>
+                <save_empty>no</save_empty>
+                <display>db</display>
+                <display_value_not_selected></display_value_not_selected>
+                <display_value_selected></display_value_selected>
+                <is_new>1</is_new>
+                <conditional_display>
+                    <custom_use>0</custom_use>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-featured</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>featured</__types_id>
+            <__types_title>featured</__types_title>
+            <hash>42ac37dab1cce5587beab523852f1ee7</hash>
+            <checksum>42ac37dab1cce5587beab523852f1ee7</checksum>
+        </field>
+    </fields>
+    <types>
+        <type>
+            <labels>
+                <name>Sliders</name>
+                <singular_name>Slide</singular_name>
+                <add_new>Nieuw(e) Toevoegen</add_new>
+                <add_new_item>Nieuw(e) %s Toevoegen</add_new_item>
+                <edit_item>%s Bewerken</edit_item>
+                <new_item>Nieuw(e) %s</new_item>
+                <view_item>Bekijk %s</view_item>
+                <search_items>%s Zoeken</search_items>
+                <not_found>Geen %s gevonden</not_found>
+                <not_found_in_trash>Geen %s gevonden in Prullenbak</not_found_in_trash>
+                <parent_item_colon>Oudertekst</parent_item_colon>
+                <all_items>Alle items</all_items>
+            </labels>
+            <slug>slide</slug>
+            <description></description>
+            <icon>images-alt2</icon>
+            <public>public</public>
+            <menu_position></menu_position>
+            <menu_icon></menu_icon>
+            <supports>
+                <title>1</title>
+                <editor>1</editor>
+                <thumbnail>1</thumbnail>
+            </supports>
+            <rewrite>
+                <enabled>1</enabled>
+                <custom>normal</custom>
+                <slug></slug>
+                <with_front>1</with_front>
+                <feeds>1</feeds>
+                <pages>1</pages>
+            </rewrite>
+            <has_archive>1</has_archive>
+            <show_in_menu>1</show_in_menu>
+            <show_in_menu_page></show_in_menu_page>
+            <show_ui>1</show_ui>
+            <publicly_queryable>1</publicly_queryable>
+            <can_export>1</can_export>
+            <show_in_nav_menus>1</show_in_nav_menus>
+            <query_var_enabled>1</query_var_enabled>
+            <query_var></query_var>
+            <permalink_epmask>EP_PERMALINK</permalink_epmask>
+            <wpcf-post-type></wpcf-post-type>
+            <id>slide</id>
+            <__types_id>slide</__types_id>
+            <__types_title>Sliders</__types_title>
+            <hash>12d257fc9ca8d0ec0e8af117a8d5fb19</hash>
+            <checksum>12d257fc9ca8d0ec0e8af117a8d5fb19</checksum>
+        </type>
+        <type>
+            <__types_id>portfolio</__types_id>
+            <__types_title>Portfolio</__types_title>
+            <wpcf-post-type>portfolio</wpcf-post-type>
+            <labels>
+                <name>Portfolio</name>
+                <singular_name>Portfolio-item</singular_name>
+                <add_new>Nieuw(e) Toevoegen</add_new>
+                <add_new_item>Nieuw(e) %s Toevoegen</add_new_item>
+                <edit_item>%s Bewerken</edit_item>
+                <new_item>Nieuw(e) %s</new_item>
+                <view_item>Bekijk %s</view_item>
+                <search_items>%s Zoeken</search_items>
+                <not_found>Geen %s gevonden</not_found>
+                <not_found_in_trash>Geen %s gevonden in Prullenbak</not_found_in_trash>
+                <parent_item_colon>Oudertekst</parent_item_colon>
+                <all_items>Alle items</all_items>
+            </labels>
+            <slug>portfolio</slug>
+            <description></description>
+            <icon>image-rotate-left</icon>
+            <public>public</public>
+            <menu_position></menu_position>
+            <menu_icon></menu_icon>
+            <taxonomies>
+                <portfolio-categorie>1</portfolio-categorie>
+            </taxonomies>
+            <supports>
+                <title>1</title>
+                <editor>1</editor>
+                <excerpt>1</excerpt>
+                <thumbnail>1</thumbnail>
+            </supports>
+            <rewrite>
+                <enabled>1</enabled>
+                <custom>normal</custom>
+                <slug></slug>
+                <with_front>1</with_front>
+                <feeds>1</feeds>
+                <pages>1</pages>
+            </rewrite>
+            <has_archive>1</has_archive>
+            <show_in_menu>1</show_in_menu>
+            <show_in_menu_page></show_in_menu_page>
+            <show_ui>1</show_ui>
+            <publicly_queryable>1</publicly_queryable>
+            <can_export>1</can_export>
+            <show_in_nav_menus>1</show_in_nav_menus>
+            <query_var_enabled>1</query_var_enabled>
+            <query_var></query_var>
+            <permalink_epmask>EP_PERMALINK</permalink_epmask>
+            <id>portfolio</id>
+            <hash>2e2588e4120ef556a9d749544c5f7196</hash>
+            <checksum>2e2588e4120ef556a9d749544c5f7196</checksum>
+        </type>
+    </types>
+    <taxonomies>
+        <taxonomy>
+            <labels>
+                <name>Categorieën</name>
+                <singular_name>Categorie</singular_name>
+                <search_items>Search %s</search_items>
+                <popular_items>Popular %s</popular_items>
+                <all_items>All %s</all_items>
+                <parent_item>Parent %s</parent_item>
+                <parent_item_colon>Parent %s:</parent_item_colon>
+                <edit_item>Edit %s</edit_item>
+                <update_item>Update %s</update_item>
+                <add_new_item>Add New %s</add_new_item>
+                <new_item_name>New %s Name</new_item_name>
+                <separate_items_with_commas>Separate %s with commas</separate_items_with_commas>
+                <add_or_remove_items>Add or remove %s</add_or_remove_items>
+                <choose_from_most_used>Choose from the most used %s</choose_from_most_used>
+                <menu_name>%s</menu_name>
+            </labels>
+            <slug>portfolio-categorie</slug>
+            <description></description>
+            <public>public</public>
+            <supports>
+                <portfolio>1</portfolio>
+            </supports>
+            <hierarchical>hierarchical</hierarchical>
+            <rewrite>
+                <enabled>1</enabled>
+                <slug></slug>
+                <with_front>1</with_front>
+                <hierarchical>1</hierarchical>
+            </rewrite>
+            <show_ui>1</show_ui>
+            <show_in_nav_menus>1</show_in_nav_menus>
+            <show_tagcloud>1</show_tagcloud>
+            <query_var_enabled>1</query_var_enabled>
+            <query_var></query_var>
+            <update_count_callback></update_count_callback>
+            <id>portfolio-categorie</id>
+            <__types_id>portfolio-categorie</__types_id>
+            <__types_title>Categorieën</__types_title>
+            <checksum>66b73c987285763b6b09c00c74769c8c</checksum>
+        </taxonomy>
+    </taxonomies>
+</types>
